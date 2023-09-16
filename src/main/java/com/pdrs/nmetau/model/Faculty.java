@@ -1,10 +1,9 @@
 package com.pdrs.nmetau.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -19,4 +18,10 @@ public class Faculty {
     private String title;
     private String description;
     private String iconPath;
+
+    @ManyToMany
+    @JoinTable(name = "faculty_news",
+    joinColumns = {@JoinColumn(name = "FACULTY_ID", referencedColumnName = "ID")},
+    inverseJoinColumns = {@JoinColumn(name = "NEWS_ID", referencedColumnName = "ID")})
+    List<News> newsList;
 }
