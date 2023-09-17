@@ -1,8 +1,12 @@
 package com.pdrs.nmetau.model.dto;
 
+import com.pdrs.nmetau.model.Faculty;
 import lombok.*;
 
-@Data
+import java.util.List;
+
+@Setter
+@Getter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
@@ -11,4 +15,5 @@ public class NewsDTO {
     private String title;
     private String description;
     private String iconPath;
+    private List<FacultyMinimalDTO> facultyList;
 }
