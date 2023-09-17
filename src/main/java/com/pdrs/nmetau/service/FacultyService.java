@@ -9,7 +9,7 @@ import java.util.Optional;
 
 public interface FacultyService {
     Optional<FacultyDTO> findFacultyById(int id);
-    List<FacultyDTO> getAllFaculties();
+    List<FacultyDTO> findAllFaculties();
     void createFaculty(Faculty faculty);
     void updateFacultyById(int id, Faculty faculty);
     void removeFacultyById(int id);
