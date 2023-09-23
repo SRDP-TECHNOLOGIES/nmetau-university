@@ -1,0 +1,32 @@
+@import url(header.css);
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
