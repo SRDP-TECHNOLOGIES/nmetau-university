@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'inter';
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+
+.about__container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: auto 10px;
+}
+
+.about {
+  background: url(../image/jpg/bg-about.jpg) no-repeat;
+}
+
+.about-text {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Inter';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  padding: 400px 0 420px 0;
+  max-width: 1260px;
+}

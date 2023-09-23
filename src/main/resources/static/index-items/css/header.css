@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'inter';
+  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+
 .header {
   background: #336;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -6,22 +11,37 @@
 
 /* logo */
 
+.logo {
+}
+
 .logo-bg {
-  display: block;
-  margin: 0 auto
 }
 
 .logo-gerb {
-  position: absolute;
-  left: 830px;
-  top: 20px;
+
+}
+
+.logo-text {
+
+}
+
+.logo-text h1 {
+
 }
 
 .logo-text-top {
   color: #336;
-  text-align: center;
   font-family: 'Inter';
   font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85.523%;
+}
+
+.logo-text-bottom {
+  color: #336;
+  font-family: 'Inter';
+  font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: 85.523%;
