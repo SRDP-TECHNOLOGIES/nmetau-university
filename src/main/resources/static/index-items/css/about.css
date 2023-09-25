@@ -10,7 +10,11 @@
 }
 
 .about {
-  background: url(../image/jpg/bg-about.jpg) no-repeat;
+  background: url(../image/jpg/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .about-text {

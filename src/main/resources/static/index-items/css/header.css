@@ -9,24 +9,42 @@
   height: 70px;
 }
 
-/* logo */
-
-.logo {
+.header__container {
+  display: flex;
+  justify-content: space-between;
 }
 
+.left__header {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.right__header {
+  margin-right: 200px;
+  margin-top: 10px;
+}
+/* logo */
+
 .logo-bg {
+
 }
 
 .logo-gerb {
-
+  height: 46px;
+  width: 40px;
+  margin-left: 35px;
 }
 
-.logo-text {
-
-}
+.logo_items-text {}
 
 .logo-text h1 {
 
+}
+
+.logo-items {
+  display: flex;
+  position: absolute;
+  top: 20px;
 }
 
 .logo-text-top {
@@ -36,6 +54,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 85.523%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 3px;
 }
 
 .logo-text-bottom {
@@ -45,6 +66,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 85.523%;
+  text-align: center;
 }
 
 /* logo */
